@@ -39,6 +39,7 @@ export default function Login() {
               onChange={handleChange}
               required
               style={s.input}
+                autoComplete="off"
             />
           </div>
           <div style={s.field}>
@@ -51,6 +52,7 @@ export default function Login() {
               onChange={handleChange}
               required
               style={s.input}
+                autoComplete="current-password"
             />
           </div>
           <button type="submit" disabled={loading} style={s.btn}>
